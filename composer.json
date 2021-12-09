@@ -1,0 +1,21 @@
+{
+    "name": "maytapi/chatbot",
+    "description": "Chantbot with Maytapi and PHP Composer",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maytapi\\Chatbot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jdavid2019",
+            "email": "joseph2019d@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
