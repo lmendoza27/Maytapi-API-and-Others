@@ -106,9 +106,12 @@ echo '<br>';
 //$calculo = (round($datediff / (60 * 60 * 24))+1);
 $calculo = (round($datediff / (60 * 60 * 24))+1);
 
+echo 'La fecha establecida fue: '.$dia.' del '.$mes;
+
+echo '<br>';
 if($calculo == 1) {
     echo 'Queda: '.$calculo." día para tu cumpleaños";
-}else if($calculo == 0) {
+}else if($calculo == 365) {
     echo "Hoy es tu cumpleaños";
 }else if($calculo >=2) {
     echo 'Quedan: '.$calculo." días para tu cumpleaños";

@@ -20,6 +20,10 @@ $random_time = rand(5,30);
 while (($data = fgetcsv($csv_file, 1000, ",")) !== FALSE) {      
 
 // Condition to set in which Row of CSV file to start
+
+// De qué punto a qué punto
+
+// if ($row >= 9 && $row<=50)
     if ($row >= 9) {
 
 // The first request that consist in Send Message whit POST method 
